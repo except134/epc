@@ -1,0 +1,3 @@
+[submodule "Ext\\PDCurses"]
+	path = Ext\\PDCurses
+	url = https://github.com/wmcbrine/PDCurses.git
