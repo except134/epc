@@ -52,11 +52,17 @@
     <ClCompile>
       <CppLanguageStandard>c++1y</CppLanguageStandard>
     </ClCompile>
+    <Link>
+      <LibraryDependencies>ncurses</LibraryDependencies>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <CppLanguageStandard>c++1y</CppLanguageStandard>
     </ClCompile>
+    <Link>
+      <LibraryDependencies>ncurses</LibraryDependencies>
+    </Link>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />
