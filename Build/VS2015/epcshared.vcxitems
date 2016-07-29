@@ -15,17 +15,24 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Src\main.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Src\MouseNcurses.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Src\PCH.cpp">
       <PrecompiledHeader>Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Src\WindowNcurses.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Src\EpcCompiler.GCC.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Src\EpcCompiler.MSVC.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Src\EpcConfig.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Src\EpcPlatform.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Src\EpcPlatform.Linux.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Src\EpcPlatform.Windows.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Src\EpcTypes.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Src\IMouse.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Src\IWindow.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Src\MouseNcurses.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Src\PCH.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Src\WindowNcurses.h" />
   </ItemGroup>
 </Project>

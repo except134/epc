@@ -4,6 +4,12 @@
     <Filter Include="Src">
       <UniqueIdentifier>{dbc19e6c-4c06-46c6-98a4-32a19a010bba}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Src\Interfaces">
+      <UniqueIdentifier>{b91a54d0-2c3f-4a15-9ea3-78218f5c643f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\NCurses">
+      <UniqueIdentifier>{5825d10a-fafd-4575-ac07-b7d81ff6e334}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Src\main.cpp">
@@ -11,6 +17,12 @@
     </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Src\PCH.cpp">
       <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Src\MouseNcurses.cpp">
+      <Filter>Src\NCurses</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Src\WindowNcurses.cpp">
+      <Filter>Src\NCurses</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -34,6 +46,21 @@
     </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Src\EpcTypes.h">
       <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Src\EpcConfig.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Src\IMouse.h">
+      <Filter>Src\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Src\IWindow.h">
+      <Filter>Src\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Src\MouseNcurses.h">
+      <Filter>Src\NCurses</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Src\WindowNcurses.h">
+      <Filter>Src\NCurses</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
